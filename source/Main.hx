@@ -78,12 +78,12 @@ class Main extends Sprite
 			gameHeight = Math.ceil(stageHeight / zoom);
 		}
 
-		#if cpp
+		
 		initialState = TitleState; //i dont want caching on my game fuck off
 		game = new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen);
-		#else
+		
 		game = new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen);
-		#end
+		
 		addChild(game);
 		#if windows
 		DiscordClient.initialize();
