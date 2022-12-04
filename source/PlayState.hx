@@ -3457,11 +3457,11 @@ class PlayState extends MusicBeatState
 					if (curSong == 'Loid')
 					{
 						//video.playMP4(Paths.video('endurancecutscene'), new PlayState());
-						LoadingState.loadAndSwitchState(new CutsceneTwoState(), true);
+						// LoadingState.loadAndSwitchState(new CutsceneTwoState(), true);
 					}
 					else if (curSong == 'Endurance')
 					{
-						LoadingState.loadAndSwitchState(new CutsceneThreeState(), true);
+						// LoadingState.loadAndSwitchState(new CutsceneThreeState(), true);
 					}
 					else
 					{
