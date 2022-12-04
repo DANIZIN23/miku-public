@@ -22,7 +22,7 @@ class CutsceneThreeState extends MusicBeatState
 
 	var zoom:Float = -1;
 
-	var video:MP4Handler = new MP4Handler();
+	
 	
 	public function new(goodEnding:Bool = true) 
 	{
