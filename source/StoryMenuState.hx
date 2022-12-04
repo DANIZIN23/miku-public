@@ -351,7 +351,7 @@ class StoryMenuState extends MusicBeatState
 			{
 				if (curWeek == 1)
 				{
-					LoadingState.loadAndSwitchState(new CutsceneState(), true);
+					// LoadingState.loadAndSwitchState(new CutsceneState(), true);
 				}
 				else
 				{
