@@ -41,7 +41,7 @@ class CutsceneState extends MusicBeatState
 			FlxG.camera.fade(FlxColor.BLACK, 0.8, true);
 			if (PlayState.storyWeek == 1)
 				
-	}
+	
 	
 	override public function update(elapsed:Float):Void 
 	{
