@@ -36,7 +36,7 @@ class EndingState extends MusicBeatState
 		trace(PlayState.storyWeek);
 		super.create();	
 		FlxG.camera.fade(FlxColor.BLACK, 0.8, true);
-		video.playMP4(Paths.video('creditsend'), new MainMenuState());
+		// video.playMP4(Paths.video('creditsend'), new MainMenuState());
 	}
 	
 	override public function update(elapsed:Float):Void 
