@@ -34,7 +34,7 @@ class CrashState extends MusicBeatState
 	override public function create():Void 
 	{
 		super.create();	
-		video.playMP4(Paths.video('evdial'), new CrashState());
+		
 	}
 	
 	override public function update(elapsed:Float):Void 
