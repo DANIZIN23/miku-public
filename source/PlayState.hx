@@ -246,7 +246,7 @@ class PlayState extends MusicBeatState
 	var inCutscene:Bool = false;
 	var usedTimeTravel:Bool = false;
 
-	var video:MP4Handler = new MP4Handler();
+	
 
 	public static var repPresses:Int = 0;
 	public static var repReleases:Int = 0;
